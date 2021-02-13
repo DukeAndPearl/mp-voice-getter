@@ -6,13 +6,6 @@ import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 
 public class ChangeName {
-	static String PATH = "D:\\Human\\";
-
-	public static void main(String[] args) throws IOException {
-		File dir = new File(PATH);
-		add(dir, "cc", false);
-
-	}
 
 	static void add(File file, String str, boolean isPre) throws IOException {
 		if (!file.exists()) {
